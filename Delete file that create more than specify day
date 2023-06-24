@@ -1,4 +1,0 @@
-Rem : Open dos command and input your target directory to the command
-Rem: Specify the day you want after parameter /d -xxx
-
-forfiles /p "C:\Your Directory" /s /m . /c "cmd /c Del @path" /d -3
